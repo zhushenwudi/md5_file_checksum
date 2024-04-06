@@ -4,7 +4,7 @@ version '1.0.3'
 buildscript {
     ext.kotlin_version = '1.6.10'
     repositories {
-        maven { url 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
+        mavenCentral()
     }
 
     dependencies {
@@ -15,7 +15,7 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
-        maven { url 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
+        mavenCentral()
     }
 }
 
